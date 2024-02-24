@@ -2,8 +2,8 @@ CREATE TABLE public."Customers"
 (
     customer_id serial NOT NULL,
     address_id integer NOT NULL,
-    first_name character varying(100) NOT NULL,
-    last_name character varying(100) NOT NULL,
+    customer_first_name character varying(100) NOT NULL,
+    customer_last_name character varying(100) NOT NULL,
     email character varying(200) NOT NULL,
     phone_num character varying(24) NOT NULL,
     PRIMARY KEY (customer_id),
