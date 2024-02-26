@@ -1,0 +1,5 @@
+insert into public."Addresses"  (address_id, address_line1, address_line2, city, province, postal_code) values (11, '072 Pearson Way', 'Suite 40', 'Carbonear', 'Newfoundland and Labrador', 'A1Y');
+insert into public."Addresses"  (address_id, address_line1, address_line2, city, province, postal_code) values (12, '0 Texas Avenue', 'PO Box 98400', 'Bonavista', 'Newfoundland and Labrador', 'E8M');
+insert into public."Addresses"  (address_id, address_line1, address_line2, city, province, postal_code) values (13, '87103 Bellgrove Road', 'PO Box 79110', 'Torbay', 'Newfoundland and Labrador', 'A1K');
+insert into public."Addresses"  (address_id, address_line1, address_line2, city, province, postal_code) values (14, '0 Center Hill', 'PO Box 61086', 'Bonavista', 'Newfoundland and Labrador', 'E8M');
+insert into public."Addresses"  (address_id, address_line1, address_line2, city, province, postal_code) values (15, '42 Oneill Trail', '16th Floor', 'Carbonear', 'Newfoundland and Labrador', 'A1Y');
