@@ -1,0 +1,5 @@
+insert into public. "Customers"  (customer_id, address_id, customer_first_name, customer_last_name, email, phone_num) values (11, 11, 'Clyve', 'Shulver', 'cshulver0@gizmodo.com', '(978) 2423724');
+insert into public. "Customers"  (customer_id, address_id, customer_first_name, customer_last_name, email, phone_num) values (12, 12, 'Bernhard', 'Ames', 'bames1@smh.com.au', '(973) 5401123');
+insert into public. "Customers"  (customer_id, address_id, customer_first_name, customer_last_name, email, phone_num) values (13, 13, 'Lani', 'Wilson', 'lwilson2@nhs.uk', '(275) 8162303');
+insert into public. "Customers"  (customer_id, address_id, customer_first_name, customer_last_name, email, phone_num) values (14, 14, 'Dulcie', 'Saddington', 'dsaddington3@dailymail.co.uk', '(382) 4304010');
+insert into public. "Customers"  (customer_id, address_id, customer_first_name, customer_last_name, email, phone_num) values (15, 15, 'Merola', 'Sachno', 'msachno4@domainmarket.com', '(163) 3358734');
