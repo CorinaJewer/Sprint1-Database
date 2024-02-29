@@ -2,7 +2,6 @@ CREATE TABLE public."Inventory"
 (
     inventory_id serial NOT NULL,
     product_id integer NOT NULL,
-    product_name character varying(100) NOT NULL,
     cost money NOT NULL,
     quanity_in_stock integer NOT NULL,
     total_sold integer NOT NULL,

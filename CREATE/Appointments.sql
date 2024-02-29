@@ -5,7 +5,6 @@ CREATE TABLE public."Appointments"
     employee_id integer NOT NULL,
     date date NOT NULL,
     "time" time without time zone NOT NULL,
-	customizations character varying(320),
     PRIMARY KEY (appointment_id),
     CONSTRAINT "appointments_customer_id_FK" FOREIGN KEY (customer_id)
         REFERENCES public."Customers" (customer_id) MATCH SIMPLE,

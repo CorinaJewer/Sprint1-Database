@@ -2,7 +2,7 @@ CREATE TABLE public."Appointments_Services_Junction"
 (
     appointment_id integer NOT NULL,
     service_id integer NOT NULL,
-    notes character varying(360),
+    customizations character varying(360),
     CONSTRAINT "Appointments_Services_Junction_pkey" PRIMARY KEY (appointment_id, service_id),
     CONSTRAINT "appointments_appointment_id_FK" FOREIGN KEY (appointment_id)
         REFERENCES public."Appointments" (appointment_id) MATCH SIMPLE
